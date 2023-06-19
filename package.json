@@ -1,0 +1,27 @@
+{
+  "name": "upload.server",
+  "description": "部署到服务器",
+  "author": "tingwangliu@gmail.com",
+  "scripts": {
+    "publish": "node upload.server.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel-eslint": "10.1.0",
+    "babel-jest": "23.6.0",
+    "babel-plugin-dynamic-import-node": "2.3.3",
+    "connect": "3.6.6",
+    "eslint": "6.7.2",
+    "scp2": "^0.5.0"
+
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ],
+  "engines": {
+    "node": ">=8.9",
+    "npm": ">= 3.0.0"
+  },
+  "license": "MIT"
+}
